@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximumum-scale=1", width="device-width">
+    <meta name ="author" content="Edison Ladino">
+    <meta name ="keywords" content="html,css,xml,javascript">
+    <meta name ="description" content="Hoja de Vida">
+    <title>Educacion</title>
+  </head>
+  <body>
+    <header>
+      <svg width="250px" height="230px" viewBox="0 0 300 200">
+        <image width="300px" height="200px" xlink:href="img/logo.svg"></image>
+      </svg>
+      <h1>Curriculum Vitae</h1>
+      <h2><strong>Datos Personales</strong></h2>
+      <h3>Nombre: <em>Edison Ladino Bernal</em> </br>
+      Fecha Nacimiento: <em>21 de junio de 1979</em></br>
+      Lugar: <em>Bogota - Colombia</em></h3>
+    </header>
+        <nav>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="educacion.html">Educacion</a></li>
+          <li><a href="experiencia.html">Experiencia</a></li>
+        </nav>
+        <section>
+          <article class="">
+            <h2>Educacion</h2>
+            <table border="1", cellpadding="10", cellpadding="0">
+              <thead>
+                <tr>
+                  <td><b>Año</td>
+                  <td><b>Institucion</td>
+                  <td><b>Lugar</td>
+                  <td><b>Culmino</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2000</td>
+                  <td>Sena</td>
+                  <td>Bogota Colombia</td>
+                  <td>2004</td>
+                </tr>
+                <tr>
+                  <td>2004</td>
+                  <td>Institucion CIDCA</td>
+                  <td>Bogota Colombia</td>
+                  <td>2008</td>
+                </tr>
+                <tr>
+                  <td>2013</td>
+                  <td>Universidad Nacional a Distancia UNAD</td>
+                  <td>Bogota Colombia</td>
+                  <td>2017</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+          <h3>Agregar Estudios</h3>
+          <form class="" action="index.html" method="post" name="formContacto" autocomplete="on">
+            <label for="anio"><b>Año</label></br>
+            <input type="date" id="anio" required></br>
+            <label for="institucion">Institucion</label>
+            <input type="text" id="institucion" required></br>
+            <label for="lugar">Lugar</label>
+            <textarea name="name" rows="2" cols="26" required></textarea></br></br>
+            <label for="estado">¿Culmino?</label></b>
+            Si<input type="radio" name="estadoS" value="" id="estado">
+            No<input type="radio" name="estadoN" value="" id="estado"></br></br>
+            <input type="submit" name="" value="Enviar">
+            <input type="reset" name="" value="Limpiar Formulario">
+          </form>
+
+        </section>
+        <footer>
+          <h3>Contacto</h3>
+          Email: edison.ladino@gmail.com </br>
+          Telefono: 3204165068 </br>
+          Twiter: @EdiLadinoB </br>
+          Instagram: e.ladino.b </br>
+        </footer>
+  </body>
+</html>
